@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반응속도체크</title>
+  <style>
+    #screen {
+      width: 300px;
+      height: 200px;
+      color: rgb(238, 236, 236);
+    }
+    #screen.waiting {
+      background-color: rgb(52, 82, 172);
+    }
+    #screen.ready {
+      background-color: rgb(250, 52, 52);
+    }
+    #screen.now {
+      background-color: rgb(14, 133, 14);
+    }
+  </style>
+</head>
+<body>
+  <div id="screen" class= "waiting">
+    클릭해서 시작하세요
+  </div>
+  <script src="ResponseTest.js"></script>
+</body>
+</html>
